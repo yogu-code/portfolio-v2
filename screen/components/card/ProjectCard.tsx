@@ -1,15 +1,8 @@
 import { Button, buttonVariants } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
+import { Project } from "../Whativeworkedon";
 
-type ProjectCardProps = {
-  index: string;
-  category: string;
-  title: string;
-  description: string;
-  githubUrl: string;
-  liveUrl?: string;
-};
 
 export function ProjectCard({
   index,
@@ -18,7 +11,7 @@ export function ProjectCard({
   description,
   githubUrl,
   liveUrl,
-}: ProjectCardProps) {
+}: Project) {
   return (
     <div className="flex h-101 flex-col rounded-3xl border border-neutral-200 bg-white p-8 shadow-sm transition-all hover:shadow-md">
       <div className="flex items-center gap-3">

@@ -6,7 +6,7 @@ export type Project = {
   category: string;
   title: string;
   description: string;
-  githubUrl: string;
+  githubUrl: string | undefined;
   liveUrl: string | undefined;
 }
 type WhatIveWorkedOnProps = {

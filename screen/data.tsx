@@ -87,6 +87,7 @@ export const projects = [
     description:
       "A BullMQ-inspired distributed job queue built with Redis and Lua scripts — atomic job claiming, lock-token fencing, and exponential backoff retries for reliable background processing.",
     githubUrl: "https://github.com/yogu-code/ironqueue",
+    liveUrl: undefined
   },
   {
     index: "02",
@@ -95,6 +96,7 @@ export const projects = [
     description:
       "A production-grade webhook delivery service built with BullMQ, PostgreSQL, and Docker — at-least-once delivery, exponential backoff retries, and full delivery tracking.",
     githubUrl: "https://github.com/yogu-code/webhook-service",
+    liveUrl: undefined
   },
   {
     index: "03",
@@ -102,6 +104,8 @@ export const projects = [
     title: "QbarTrade",
     description:
       "A unified trading platform integrating Zerodha Kite, Groww, and AngelOne — OAuth authentication, automated order execution, and cross-broker portfolio tracking.",
+    githubUrl: undefined,
+    liveUrl: undefined
   },
 ];
 
